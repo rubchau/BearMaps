@@ -1,0 +1,65 @@
+Consider the following input for Rasterer:
+
+ullon = -122.241632
+lrlon = -122.24053
+ullat = 37.87655
+lrlat = 37.87548
+w = 892.0
+h = 875.0
+
+To find the distance displayed per pixel using the given longitude range (longDPP):
+
+|ullon - lrlon| = netLon = 0.00110199999 // in degrees longitude
+
+S_lon = 288,200
+// this is a unit of feet per degree longitude,
+// at a given latitude
+// helper methods getSLon() and getSLat calculate this
+
+netLon x S_lon = viewingWidth = 317 feet
+
+viewingWidth / w = lonDPP = 0.355 feet per pixel
+
+* Repeat with latitude range, use the smallest dpp of the two
+
+To find RESOLUTION that we should display:
+
+1. Calculate the lonDPP and latDPP of d1, which has the following coordinates in
+its upper left corner : (-122.2558, 37.89219) and the following coordinates in
+lower right corner: (-122.21191, 37.85749)
+
+lonDPP would be calculated as:
+
+|-122.2558 - (-122.21191)| = netLon
+
+netLon x S_lon = viewingWidth
+
+viewingWidth / w = lonDPP_d1
+
+2. Use the following formula to find which resolution matches the lonDPP for a
+given query. Iterate over D[2, 9] until (resolution < givenDPP)
+
+resolution = lonDPP_d1 / (2^(D - 1))
+
+--- HELPER METHODS ---
+
+getSLon(double latitude)
+    - calculates the feet per degree longitude at a given latitude
+
+getSLat(double longitude)
+    - calculates the feet per degree latitude at a given longitude
+
+--- Notes on RASTERRESULTPARAMS Object ---
+
+public final String[][] renderGrid
+    - 2D array of dN_xi_yj, where N is depth from 1-7
+
+public final double rasterUlLon, rasterUlLat, rasterLrLon, rasterLrLat
+    - latitudes and longitudes of upper left and lower right corners of the
+    map area with chosen depth; these are different from the ones the user passes in
+    because these are calculated by our program
+
+public final int depth
+
+public final boolean querySuccess
+
