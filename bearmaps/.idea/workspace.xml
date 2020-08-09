@@ -7,43 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="065c5d12-a33a-4681-bb38-1829956afdfc" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Notes.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/berkeley-cs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/directions_results.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/path_params.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/path_results.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/raster_params.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/raster_results.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GraphBuildingHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GraphDB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GraphDBLauncher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LocationParams.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MapServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RasterRequestParams.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RasterResultParams.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Rasterer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RouteRequestParams.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RouteResultParams.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Router.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/example/CSCourseDB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/example/CSCourseDBHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/static/page/map.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/static/page/marker.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/static/page/round_marker.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/static/page/scripts/map.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/static/page/styles/map.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestDirections.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestGraphBuilding.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestGraphBuildingTiny.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestRasterer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestRouter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestRouterTiny.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1234.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testTwelveImages.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../library-su18" beforeDir="false" afterPath="$PROJECT_DIR$/../library-su18" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MapServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MapServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MapServer$RenderedRasterResultParams.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MapServer$RenderedRasterResultParams.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MapServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MapServer.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,31 +157,31 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="205" y="222" width="927" height="331" key="#com.intellij.structuralsearch.plugin.ui.StructuralSearchDialog/0.23.1280.777/1280.-344.1280.729@0.23.1280.777" timestamp="1596086335820" />
-    <state width="1102" height="170" key="GridCell.Tab.0.bottom" timestamp="1596925409984">
+    <state width="1102" height="170" key="GridCell.Tab.0.bottom" timestamp="1596997945399">
       <screen x="0" y="23" width="1280" height="729" />
     </state>
-    <state width="1102" height="170" key="GridCell.Tab.0.bottom/0.23.1280.729/0.-777.1280.777@0.23.1280.729" timestamp="1596925409984" />
+    <state width="1102" height="170" key="GridCell.Tab.0.bottom/0.23.1280.729/0.-777.1280.777@0.23.1280.729" timestamp="1596997945399" />
     <state width="1001" height="170" key="GridCell.Tab.0.bottom/0.23.1280.729/1280.-344.1280.777@0.23.1280.729" timestamp="1596068387446" />
     <state width="1001" height="170" key="GridCell.Tab.0.bottom/0.23.1280.729@0.23.1280.729" timestamp="1595527201915" />
     <state width="1102" height="170" key="GridCell.Tab.0.bottom/0.23.1280.777/1280.-344.1280.729@0.23.1280.777" timestamp="1596093476789" />
-    <state width="1102" height="170" key="GridCell.Tab.0.center" timestamp="1596925409982">
+    <state width="1102" height="170" key="GridCell.Tab.0.center" timestamp="1596997945398">
       <screen x="0" y="23" width="1280" height="729" />
     </state>
-    <state width="1102" height="170" key="GridCell.Tab.0.center/0.23.1280.729/0.-777.1280.777@0.23.1280.729" timestamp="1596925409982" />
+    <state width="1102" height="170" key="GridCell.Tab.0.center/0.23.1280.729/0.-777.1280.777@0.23.1280.729" timestamp="1596997945398" />
     <state width="1001" height="170" key="GridCell.Tab.0.center/0.23.1280.729/1280.-344.1280.777@0.23.1280.729" timestamp="1596068387444" />
     <state width="1001" height="170" key="GridCell.Tab.0.center/0.23.1280.729@0.23.1280.729" timestamp="1595527201914" />
     <state width="1102" height="170" key="GridCell.Tab.0.center/0.23.1280.777/1280.-344.1280.729@0.23.1280.777" timestamp="1596093476788" />
-    <state width="1102" height="170" key="GridCell.Tab.0.left" timestamp="1596925409981">
+    <state width="1102" height="170" key="GridCell.Tab.0.left" timestamp="1596997945397">
       <screen x="0" y="23" width="1280" height="729" />
     </state>
-    <state width="1102" height="170" key="GridCell.Tab.0.left/0.23.1280.729/0.-777.1280.777@0.23.1280.729" timestamp="1596925409981" />
+    <state width="1102" height="170" key="GridCell.Tab.0.left/0.23.1280.729/0.-777.1280.777@0.23.1280.729" timestamp="1596997945397" />
     <state width="1001" height="170" key="GridCell.Tab.0.left/0.23.1280.729/1280.-344.1280.777@0.23.1280.729" timestamp="1596068387444" />
     <state width="1001" height="170" key="GridCell.Tab.0.left/0.23.1280.729@0.23.1280.729" timestamp="1595527201913" />
     <state width="1102" height="170" key="GridCell.Tab.0.left/0.23.1280.777/1280.-344.1280.729@0.23.1280.777" timestamp="1596093476787" />
-    <state width="1102" height="170" key="GridCell.Tab.0.right" timestamp="1596925409983">
+    <state width="1102" height="170" key="GridCell.Tab.0.right" timestamp="1596997945399">
       <screen x="0" y="23" width="1280" height="729" />
     </state>
-    <state width="1102" height="170" key="GridCell.Tab.0.right/0.23.1280.729/0.-777.1280.777@0.23.1280.729" timestamp="1596925409983" />
+    <state width="1102" height="170" key="GridCell.Tab.0.right/0.23.1280.729/0.-777.1280.777@0.23.1280.729" timestamp="1596997945399" />
     <state width="1001" height="170" key="GridCell.Tab.0.right/0.23.1280.729/1280.-344.1280.777@0.23.1280.729" timestamp="1596068387445" />
     <state width="1001" height="170" key="GridCell.Tab.0.right/0.23.1280.729@0.23.1280.729" timestamp="1595527201914" />
     <state width="1102" height="170" key="GridCell.Tab.0.right/0.23.1280.777/1280.-344.1280.729@0.23.1280.777" timestamp="1596093476789" />
@@ -222,10 +189,10 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="207" y="23" key="SettingsEditor/0.23.1280.777/1280.-344.1280.729@0.23.1280.777" timestamp="1596092983062" />
-    <state x="390" y="220" key="com.intellij.ide.util.TipDialog" timestamp="1596925103038">
+    <state x="390" y="220" key="com.intellij.ide.util.TipDialog" timestamp="1596996692223">
       <screen x="0" y="23" width="1280" height="729" />
     </state>
-    <state x="390" y="220" key="com.intellij.ide.util.TipDialog/0.23.1280.729/0.-777.1280.777@0.23.1280.729" timestamp="1596925103038" />
+    <state x="390" y="220" key="com.intellij.ide.util.TipDialog/0.23.1280.729/0.-777.1280.777@0.23.1280.729" timestamp="1596996692223" />
     <state x="390" y="220" key="com.intellij.ide.util.TipDialog/0.23.1280.729/1280.-344.1280.777@0.23.1280.729" timestamp="1596152350738" />
     <state x="390" y="233" key="com.intellij.ide.util.TipDialog/0.23.1280.777/1280.-344.1280.729@0.23.1280.777" timestamp="1596092810093" />
     <state x="311" y="112" width="816" height="550" key="find.popup" timestamp="1596092861421">

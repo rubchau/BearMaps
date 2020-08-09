@@ -214,6 +214,7 @@ public class MapServer {
     private static BufferedImage readImage(String imgPath) {
         BufferedImage tileImg = null;
         File in = new File(imgPath);
+        System.out.println(new File(".").getAbsolutePath());
         try {
             tileImg = ImageIO.read(in);
         } catch (IOException e) {
